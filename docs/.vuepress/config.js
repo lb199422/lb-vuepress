@@ -2,7 +2,9 @@ module.exports = {
   title: "lb文档",
   description: "lb vuepress 文档",
   theme: "reco",
+  base: "/lb-vuepress/",
   themeConfig: {
+    lastUpdated: "上次更新", // string | boolean,
     nav: [
       { text: "首页", link: "/" },
       {
