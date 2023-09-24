@@ -1,14 +1,9 @@
-泛型泛型
 
-
-// 在 markdown 文案中直接写
-<p class="demo" :class="$style.example"></p>
-
-<style module>
-.example {
-  color: #41b883;
-}
-</style>
+<div>
+  <div>在markDown文件中直接使用vue</div>
+  <p>直接使用vue</p>
+  <span :class="$style.example"></span>
+</div>
 
 <script>
 export default {
@@ -19,3 +14,9 @@ export default {
   }
 }
 </script>
+
+<style module>
+.example {
+  color: #41b883;
+}
+</style>
