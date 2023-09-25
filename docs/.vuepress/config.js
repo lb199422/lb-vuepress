@@ -36,11 +36,13 @@ module.exports = {
         ],
       },
     ],
-    // 语言
-    locales: {
-      '/': {
-        lang: 'zh-CN',
-      },
+  },
+  // 语言
+  locales: {
+    '/': {
+      lang: 'zh-CN',
     },
   },
+  //使用查看源码和效果插件
+  plugins: ['demo-container'],
 };
