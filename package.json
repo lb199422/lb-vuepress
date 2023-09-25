@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/lb199422/lb-vuepress#readme",
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
     "vuepress": "^1.9.10",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
     "vuepress-plugin-demo-container": "^0.2.0",
     "vuepress-theme-reco": "^1.6.17"
   }
