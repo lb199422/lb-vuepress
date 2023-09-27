@@ -13,4 +13,22 @@ module.exports = [
   ],
   // 优化代码展示
   '@vuepress-reco/extract-code',
+  // 注册组件插件
+  [
+    '@vuepress/register-components',
+    {
+      componentsDir: '/components',
+    },
+  ],
+  // 标题插件
+  [
+    'dynamic-title',
+    {
+      showIcon: '/favicon.ico',
+      showText: '(/≧▽≦/)咦！又好了！',
+      hideIcon: '/failure.ico',
+      hideText: '(●—●)喔哟，崩溃啦！',
+      recoverTime: 2000,
+    },
+  ],
 ];
