@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[40],{459:function(t,n,s){"use strict";s.r(n);var e={props:["slot-key"],mounted(){}},i=s(1),o=Object(i.a)(e,(function(){this._self._c;return this._m(0)}),[function(){var t=this._self._c;return t("div",[t("h3",[this._v("md文件中直接使用组件")])])}],!1,null,"0f380fca",null);n.default=o.exports}}]);
