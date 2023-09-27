@@ -2,13 +2,19 @@
   <div>
     <RecoDemo>
       <template slot="code-template">
-        <slot name="code-template"></slot>
+        <div class="container">
+          <slot name="code-template"></slot>
+        </div>
       </template>
       <template slot="code-script">
-        <slot name="code-script"></slot>
+        <div class="container">
+          <slot name="code-script"></slot>
+        </div>
       </template>
       <template slot="code-style">
-        <slot name="code-style"></slot>
+        <div class="container">
+          <slot name="code-style"></slot>
+        </div>
       </template>
     </RecoDemo>
   </div>
@@ -22,4 +28,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.container {
+  padding: 10px;
+  line-height: 40px;
+}
+</style>
